@@ -1,6 +1,8 @@
 /**
  * O produto existe fora do pedido. O item só conhece o preço dele.
  */
+package composicao;
+
 public class Produto {
     private String nome;
     private double preco;

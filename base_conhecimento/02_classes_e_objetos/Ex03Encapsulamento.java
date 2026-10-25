@@ -12,9 +12,8 @@ public class Ex03Encapsulamento {
         coxinha.setEstoque(20);
         System.out.println(coxinha.getNome() + " R$ " + coxinha.getPreco());
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private double preco;
     private int estoque;
@@ -43,5 +42,6 @@ class Produto {
             throw new IllegalArgumentException("Estoque não pode ser negativo");
         }
         this.estoque = estoque;
+    }
     }
 }

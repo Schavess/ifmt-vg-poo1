@@ -1,6 +1,8 @@
 /**
  * O item nasce dentro do pedido. O produto, não: o item só o referencia.
  */
+package composicao;
+
 public class ItemPedido {
     private final Produto produto;
     private final int quantidade;

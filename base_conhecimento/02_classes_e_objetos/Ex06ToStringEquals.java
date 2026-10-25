@@ -15,9 +15,8 @@ public class Ex06ToStringEquals {
         System.out.println("mesmo hash: " + (a.hashCode() == b.hashCode()));
         System.out.println("a.equals(c): " + a.equals(c));
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private double preco;
 
@@ -46,5 +45,6 @@ class Produto {
     @Override
     public int hashCode() {
         return nome.hashCode();
+    }
     }
 }

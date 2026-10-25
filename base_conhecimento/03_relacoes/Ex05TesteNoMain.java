@@ -23,9 +23,8 @@ public class Ex05TesteNoMain {
         }
         System.out.println("OK preco negativo");
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private double preco;
 
@@ -39,5 +38,6 @@ class Produto {
 
     public double getPreco() {
         return preco;
+    }
     }
 }

@@ -17,9 +17,8 @@ public class Ex04Excecoes {
 
         System.out.println("estoque continua " + coxinha.getEstoque());
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private int estoque;
 
@@ -37,5 +36,6 @@ class Produto {
             throw new IllegalArgumentException("Estoque insuficiente");
         }
         estoque = estoque - quantidade;
+    }
     }
 }

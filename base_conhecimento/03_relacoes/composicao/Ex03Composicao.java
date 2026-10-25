@@ -1,10 +1,12 @@
 /**
  * O main não soma o pedido. Pede o total ao objeto.
  *
- * Rode, nesta pasta:
- * javac *.java
- * java Ex03Composicao
+ * Rode, a partir de 03_relacoes:
+ * javac composicao\*.java
+ * java composicao.Ex03Composicao
  */
+package composicao;
+
 public class Ex03Composicao {
     public static void main(String[] args) {
         Produto coxinha = new Produto("Coxinha", 6.50, 20);

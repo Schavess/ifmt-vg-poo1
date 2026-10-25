@@ -16,14 +16,14 @@ public class Ex01ClasseProduto {
         coxinha.vender(2);
         System.out.println(coxinha.nome + " estoque: " + coxinha.estoque);
     }
-}
 
-class Produto {
+    static class Produto {
     String nome;
     double preco;
     int estoque;
 
     void vender(int quantidade) {
         estoque = estoque - quantidade;
+    }
     }
 }

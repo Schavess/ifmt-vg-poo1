@@ -11,9 +11,8 @@ public class Ex05Static {
         System.out.println(coxinha.getNome() + " e " + suco.getNome());
         System.out.println("produtos criados: " + Produto.getCriados());
     }
-}
 
-class Produto {
+    static class Produto {
     private static int criados = 0;
     private String nome;
 
@@ -28,5 +27,6 @@ class Produto {
 
     public static int getCriados() {
         return criados;
+    }
     }
 }

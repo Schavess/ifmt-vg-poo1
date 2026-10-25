@@ -10,7 +10,7 @@ Consulta da turma de Programação Orientada a Objetos I, no IFMT Campus Várzea
 
 ## Ambiente
 
-JDK 21. Abra esta pasta no Cursor. Não há projeto de IDE para importar.
+JDK 21. Abra a pasta `VG` no Cursor. O projeto Java desta pasta separa os exemplos para o editor não misturar classes de arquivos diferentes.
 
 No terminal do Cursor:
 
@@ -27,12 +27,12 @@ cd base_conhecimento\01_java_basico
 java Ex01TiposVariaveis.java
 ```
 
-Quando o exemplo usa mais de uma classe pública, entre na subpasta, compile e execute:
+Quando o exemplo usa mais de uma classe pública, compile a partir da pasta pai:
 
 ```powershell
-cd base_conhecimento\03_relacoes\associacao
-javac *.java
-java Ex02Associacao
+cd base_conhecimento\03_relacoes
+javac associacao\*.java
+java associacao.Ex02Associacao
 ```
 
 A ordem de leitura está em `base_conhecimento/LEIAME.md`.

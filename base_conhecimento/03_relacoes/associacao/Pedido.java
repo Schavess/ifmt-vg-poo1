@@ -1,6 +1,8 @@
 /**
  * Associação: o pedido conhece o cliente. Não cria o cliente.
  */
+package associacao;
+
 public class Pedido {
     private Cliente cliente;
     private String descricao;

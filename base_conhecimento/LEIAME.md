@@ -1,6 +1,6 @@
 # Base de conhecimento (POO I)
 
-Exemplos comentados para estudo, do Java básico à prévia de herança. Cada arquivo de uma pasta numerada roda sozinho, com o JDK 21. Não instala pacote e não cria projeto.
+Exemplos comentados para estudo, do Java básico à prévia de herança. Cada arquivo de uma pasta numerada roda sozinho, com o JDK 21. Não instala biblioteca.
 
 A ordem segue a apostila da disciplina. Estes arquivos são a versão para abrir no Cursor e executar no terminal.
 
@@ -15,14 +15,22 @@ cd base_conhecimento\01_java_basico
 java Ex01TiposVariaveis.java
 ```
 
-Rode um arquivo por vez. Vários exemplos de uma mesma pasta declaram uma classe `Produto`. Juntar todos num `javac *.java` faz o compilador reclamar de classe repetida.
+Rode um arquivo por vez com `java Nome.java`.
 
-Nas subpastas `associacao`, `composicao` e `04_previa_heranca`, cada classe pública está no próprio arquivo:
+Nas pastas `associacao` e `composicao`, cada classe pública está no próprio arquivo e o pacote é o nome da pasta. Compile a partir de `03_relacoes`:
 
 ```powershell
-cd base_conhecimento\03_relacoes\composicao
+cd base_conhecimento\03_relacoes
+javac composicao\*.java
+java composicao.Ex03Composicao
+```
+
+A prévia de herança continua sem pacote:
+
+```powershell
+cd base_conhecimento\04_previa_heranca
 javac *.java
-java Ex03Composicao
+java Ex01Heranca
 ```
 
 ## Ordem

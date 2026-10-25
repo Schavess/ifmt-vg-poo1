@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="base_conhecimento/01_java_basico"/>
+	<classpathentry kind="src" path="base_conhecimento/02_classes_e_objetos"/>
+	<classpathentry kind="src" path="base_conhecimento/03_relacoes"/>
+	<classpathentry kind="src" path="base_conhecimento/04_previa_heranca"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

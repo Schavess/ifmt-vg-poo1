@@ -19,9 +19,9 @@ public class Ex02ReferenciaENull {
             System.out.println("c é null. c.estoque daria NullPointerException.");
         }
     }
-}
 
-class Produto {
+    static class Produto {
     String nome;
     int estoque;
+    }
 }

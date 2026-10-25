@@ -17,9 +17,8 @@ public class Ex01ArrayList {
         }
         System.out.println("itens: " + cardapio.size());
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private double preco;
 
@@ -31,5 +30,6 @@ class Produto {
     @Override
     public String toString() {
         return nome + " R$ " + preco;
+    }
     }
 }

@@ -11,9 +11,8 @@ public class Ex04Construtor {
         System.out.println(coxinha.getNome() + " estoque " + coxinha.getEstoque());
         System.out.println(suco.getNome() + " estoque " + suco.getEstoque());
     }
-}
 
-class Produto {
+    static class Produto {
     private String nome;
     private double preco;
     private int estoque;
@@ -34,5 +33,6 @@ class Produto {
 
     public int getEstoque() {
         return estoque;
+    }
     }
 }
