@@ -10,29 +10,14 @@ Consulta da turma de Programação Orientada a Objetos I, no IFMT Campus Várzea
 
 ## Ambiente
 
-JDK 21. Abra a pasta `VG` no Cursor. O projeto Java desta pasta separa os exemplos para o editor não misturar classes de arquivos diferentes.
+JDK 21 e Apache NetBeans.
 
-No terminal do Cursor:
+## Como abrir
 
-```powershell
-java -version
-```
+1. Baixe ou clone este repositório.
+2. No NetBeans: File > Open Project e escolha a pasta baixada.
+3. Abra o exemplo e use Run > Run File (Shift+F6).
 
-A linha deve citar a versão 21.
+Há vários `main`. O botão de executar o projeto inteiro não escolhe o arquivo.
 
-## Como rodar um exemplo
-
-```powershell
-cd base_conhecimento\01_java_basico
-java Ex01TiposVariaveis.java
-```
-
-Quando o exemplo usa mais de uma classe pública, compile a partir da pasta pai:
-
-```powershell
-cd base_conhecimento\03_relacoes
-javac associacao\*.java
-java associacao.Ex02Associacao
-```
-
-A ordem de leitura está em `base_conhecimento/LEIAME.md`.
+A ordem de leitura e os comandos de terminal estão em `base_conhecimento/LEIAME.md`.
