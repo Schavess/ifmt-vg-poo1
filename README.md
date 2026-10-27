@@ -7,6 +7,7 @@ Consulta da turma de Programação Orientada a Objetos I, no IFMT Campus Várzea
 | Pasta | Para que serve |
 |---|---|
 | `base_conhecimento` | Exemplos comentados. Cada arquivo mostra um conceito e roda no terminal. |
+| `atividades/2026-10-27_Aula01_Biblioteca` | Molde da prática de 27/10. Copie os três arquivos para um projeto novo e complete os `TODO`. |
 
 ## Ambiente
 
