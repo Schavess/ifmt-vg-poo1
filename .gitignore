@@ -4,3 +4,4 @@ dist/
 bin/
 .settings/
 /nbproject/private/
+**/nbproject/private/
